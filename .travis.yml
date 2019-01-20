@@ -1,3 +1,6 @@
+before_script:
+  - npm install;
+  
 language: node_js
 os:
   - windows
@@ -8,11 +11,6 @@ node_js:
   - "10"
   - "8"
   - "6"
-
-
-script:
-  - npm run lint && npm run coveralls -- -c && npm run typescript
-  - npm run license-checker
 
 notifications:
   email:
