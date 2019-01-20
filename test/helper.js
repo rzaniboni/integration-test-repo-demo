@@ -1,5 +1,6 @@
 'use strict'
 
+//
 // This file contains code that we reuse
 // between our tests.
 
